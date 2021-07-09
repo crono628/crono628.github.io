@@ -1,0 +1,62 @@
+.green-back {
+  background-color: rgb(32, 185, 178);
+}
+
+.white-text {
+  color: white;
+  font-size: 20px;
+  /*   -webkit-text-stroke: 0.0001px navy; */
+}
+
+#gameName {
+  font-size: 350%;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  align-self: center;
+  font-family: "VT323", monospace;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: "VT323", monospace;
+  transition: 300ms;
+  font-size: 240%;
+  text-align: center;
+  margin: auto;
+  align-self: center;
+  padding: 3%;
+}
+
+button:hover {
+  transform: scale(1.4);
+  font-family: "VT323", monospace;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+p {
+  font-size: 200%;
+  display: inline-flex;
+  text-align: center;
+  margin: auto;
+  align-self: center;
+  white-space: pre-wrap;
+  padding: 10px;
+}
+
+#gameOverString {
+  font-size: 200%;
+  display: inline-flex;
+  text-align: center;
+  margin: auto;
+  align-self: center;
+  white-space: break-spaces;
+  padding: 5px;
+  word-wrap: break-word;
+}
